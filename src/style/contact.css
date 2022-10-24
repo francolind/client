@@ -58,12 +58,7 @@ h4{
 }
 
 @media screen and (max-width: 980px){
-    .contact h2 { 
-        text-align: center;
-    }
-    .contact .divider{
-        margin: 0 9em;
-    }
+    
     .contact-heading {
         display: flex;
         flex-direction: column;
@@ -94,21 +89,22 @@ h4{
 
     .contact{
         padding: 0;
+        
+    }
+    .contact-title{
+        margin-left: 50px;
+    }
+    .contact-heading {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-    .contact-heading {
         
-        width: 80%;
     }
     .contact h2 { 
         text-align:left;
     }
-    .contact .divider{
-        margin: 5px 0 0 10px ;
-    }
+
     .contact-img{
         margin-top: 30px;
     }

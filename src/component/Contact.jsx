@@ -20,8 +20,10 @@ export const Contact = () => {
     }
     return (
       <section id='Contact' className="contact">
-          <h2>keep in touch</h2>
+         <div className='contact-title'>
+         <h2>keep in touch</h2>
           <div className="divider"></div>
+         </div>
         <div className="contact-heading">
           
           <img className='contact-img' src={pc4}/>
@@ -43,7 +45,7 @@ export const Contact = () => {
               ):(<h1>Email sent</h1>)}
 
           </div>
-        </div>l,
+        </div>
       </section>
     );
 };

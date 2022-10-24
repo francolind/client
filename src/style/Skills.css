@@ -2,28 +2,25 @@
     background-image: url('../assets/grilla.png');
     background-size:cover;
     background-repeat: no-repeat;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 100vw;
-    
-}
-.my-skills{
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
     flex-direction: column;
-    padding-left: 5em;
+    width: 100vw;
+    padding: 5em;
 }
+.skills-container{
+    display: flex;
+    flex-direction: row;
+}
+
 
 .skills img {
     margin: 2em 4em;
     width: 90%;
     height: 700px;
-    grid-column: 1/2;
 }
 
 .skills-info {
-    width: 90%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -38,7 +35,7 @@
 }
 
 .skills p{
-    width: 100%;
+    width: 90%;
     color: #e3e6ee;
     padding: 2em 1em ;
     border-radius: 20px;
@@ -99,15 +96,27 @@
         font-weight: 100;
         height: auto;       
     }
+
+
+@media screen and (max-width: 1500px) {
+        .skills-info P{
+            font-size: 20px;
+        }
+}
 @media screen and (max-width: 980px){
-    .skills {
+   .skills{
+    display: flex;
+    flex-direction: column;
+   }
+    .skills-container{
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
-        
+        align-items: center;  
     }
     .skills-info{
+        width: 100%;
         padding: 10px 20px;
         text-align: center;
         display: flex;
@@ -120,29 +129,38 @@
         margin-left: 0;
     }
     .skills img {
-        width: min(70%, 700px );
+        width: min(100%, 700px );
         height: auto;
-        margin-left: 25%;
+      
     }
 
  
 }
 
 @media screen and (max-width: 700px) {
-    .skills {
+   .skills{
+    padding: 0;
+   }
+    .skills-container{
+        width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;   
+        align-items: center;  
     }
-    .skills h2 {
-        font-size: 20px;
-    }
+   
     .skills-info .download{
         margin-left: 0;
     }
-    .divider{
-        margin-left: 0;
+   
+    .my-skills{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+       
+    }
+    .my-skills h2{
+        font-size: 30px;
         
     }
     .skills-info{
@@ -153,6 +171,9 @@
         align-items: center;
         justify-content: center;
         
+    }
+    .skills-title{
+        margin-left: 50px;
     }
     .skills p{
         width: 80%;
@@ -164,8 +185,9 @@
         margin-left: 0;
     }
     .skills img {
-        width: min(70%, 700px );
-        height: auto;
-        margin:auto;
+        width: min(100%, 700px );
+        height: 400px;
+        margin: auto;
+        margin-left: 2em;
     }
 }
