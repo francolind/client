@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 import web1 from '../assets/web1.jpg'
 import web2 from '../assets/web2.jpg'
 import bar from '../assets/bar.jpg'
-import web4 from '../assets/web4.jpg'
+import web4 from '../assets/web4.png'
 import web5 from '../assets/web5.jpg'
 import web6 from '../assets/web6.jpg'
 import '../style/portfolio.css';
@@ -57,13 +57,13 @@ export const Portfolio = () => {
             <div className="card">
               <img className="card-img" src={web4} alt="" />
               <div className="card-title">
-                <h2>live Rugby</h2>
-                <Link to={"#"} className="icons">
+                <h2>Lind Brothers</h2>
+                  <a href="https://github.com/francolind/clienteLindBrothers" target="blank" className="icons">
                   <FaGithub style={{ color: "white", fontSize: "50px" }} />
-                </Link>
+                  </a>
               </div>
               <button className="poject-details download ">
-                poject-datails
+                <a href="https://lindbrothers.netlify.app/" target="_blank">poject-datails</a>
               </button>
             </div>
             <div className="card">
