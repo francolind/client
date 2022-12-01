@@ -1,4 +1,4 @@
-import pc2 from '../assets/pc2.png';
+import pc2 from '../assets/pc2ps.png';
 import '../style/Skills.css'
 import { useState } from 'react';
 import { FaCss3Alt, FaHtml5, FaReact,FaGitSquare,FaAws } from "react-icons/fa";
@@ -29,16 +29,16 @@ export const Skills = () => {
 
                <div className="skills-info">
                  <p>
-                   Tengo las habilidades de un desarrollador web.
-                   <br /> Estas son habilidades específicas necesarias para
-                   desempeñarme con éxito en un rol de desarrollador web. Tener
-                   estas habilidades permite una codificación correcta y un
-                   sitio web funcional y un mejor rendimiento al realizar las
-                   tareas diarias en el trabajo. <br /> Como con cualquier
-                   trabajo, estoy constantemente desarrollando mis habilidades
-                   como desarrollador. Practicando, aprendiendo los fundamentos
+                   Tengo las habilidades específicas necesarias para
+                   desempeñarme con éxito en un rol de desarrollador web.que he desarrollado en mi profecion.
+                     <br />
+                   Estoy constantemente mejorando mis habilidades
+                   como desarrollador. Practicando, aprendiendo los nuevas actualizaciones
                    de la programación, habilidades generales de diseño y código
-                   de prueba y depuración.{" "}
+                   de prueba y depuración.
+                   <br />
+                  MIRA MI STACK...
+                   {" "}
                  </p>
                  <TrackVisibility>
                    {({ isVisible }) => 

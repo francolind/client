@@ -1,4 +1,4 @@
-import pc4 from '../assets/pc4.png';
+import pc4 from '../assets/pc4peque.png';
 import axios from 'axios';
 import { useState } from 'react';
 import '../style/contact.css'

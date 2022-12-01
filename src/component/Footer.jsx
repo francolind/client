@@ -1,4 +1,4 @@
-import logofl from '../assets/logofl.png'
+import logofl from '../assets/logoflpeque.png'
 import { FaInstagram ,FaFacebook,FaLinkedin,FaTwitter } from "react-icons/fa";
 import '../style/footer.css'
 

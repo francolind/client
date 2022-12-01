@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
 import { FaGithub } from "react-icons/fa";
-import web1 from '../assets/web1.jpg'
-import web2 from '../assets/web2.jpg'
-import bar from '../assets/bar.jpg'
-import web4 from '../assets/web4.png'
-import web5 from '../assets/web5.jpg'
-import web6 from '../assets/web6.jpg'
+import web1 from '../assets/web1p.png'
+import web2 from '../assets/web2p.png'
+import bar from '../assets/barp.png'
+import web4 from '../assets/web4p.png'
+import web5 from '../assets/web5p.png'
+import web6 from '../assets/web6p.png'
 import '../style/portfolio.css';
 
 export const Portfolio = () => {

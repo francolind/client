@@ -1,4 +1,4 @@
-import logofl1 from '../assets/logofl1.png'
+import logofl1 from '../assets/logofl1p.png'
 import '../style/Header.css'
 import { FaBars,FaTimes } from "react-icons/fa";
 import {useState} from 'react'

@@ -1,7 +1,7 @@
 import {Link} from 'react-router-dom';
 import {useState, useEffect} from 'react';
 import FrancoLind from '../assets/FrancoLind.pdf';
-import pc from '../assets/pc.png';
+import pc from '../assets/pcp.png';
 import '../style/Main.css'
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
