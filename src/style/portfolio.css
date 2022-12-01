@@ -57,10 +57,23 @@
 }
 
 
-@media screen and (max-width: 1500px) {
+
+@media screen and (max-width: 1600px) {
     .container .card{
-        width: 600px;
+        width: 500px;
     }
+       
+ 
+
+}
+
+@media screen and (max-width: 1400px) {
+    .container .card{
+        width: 400px;
+    }
+       
+ 
+
 }
 
 
