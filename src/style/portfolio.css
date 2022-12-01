@@ -71,14 +71,21 @@
 
 @media screen and (max-width: 1400px) {
     .container .card{
-        width: 400px;
+        width: 100%;
     }
        
  
 
 }
 
-
+@media screen and (max-width: 1200px){
+    .container .card{
+        width: 420px;
+    }
+    .container{
+        width: 100%;
+    }
+}
 
 @media screen and (max-width: 980px){
     
@@ -116,12 +123,22 @@
     .portfolio-headings{ 
         width: 300px;
     }
+    .container .card{
+        width: 100%;
+    }
     .card {
-        width: 250px;
+        width: 100%;
         margin: 20px;
         margin-left: 50px;
     }
     .card-img{
         height: 150px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .container .card{
+        margin-left: 120px;
+        width: 300px;
     }
 }
