@@ -18,6 +18,18 @@ export const Portfolio = () => {
           <div className="portafolio-container">
           <div className="portfolio-headings">
           <div className="container">
+          <div className="card">
+              <img className="card-img" src={web4} alt="" />
+              <div className="card-title">
+                <h2>Lind Brothers</h2>
+                  <a href="https://github.com/francolind/clienteLindBrothers" target="blank" className="icons">
+                  <FaGithub style={{ color: "white", fontSize: "50px" }} />
+                  </a>
+              </div>
+              <button className="poject-details download ">
+                <a href="https://lindbrothers.netlify.app/" target="_blank">poject-datails</a>
+              </button>
+            </div>
             <div className="card">
               <img className="card-img" src={web1} alt="" />
               <div className="card-title">
@@ -54,18 +66,7 @@ export const Portfolio = () => {
               <a href="https://purelite.netlify.app/" target="_blank" >poject-datails</a> 
               </button>
             </div>
-            <div className="card">
-              <img className="card-img" src={web4} alt="" />
-              <div className="card-title">
-                <h2>Lind Brothers</h2>
-                  <a href="https://github.com/francolind/clienteLindBrothers" target="blank" className="icons">
-                  <FaGithub style={{ color: "white", fontSize: "50px" }} />
-                  </a>
-              </div>
-              <button className="poject-details download ">
-                <a href="https://lindbrothers.netlify.app/" target="_blank">poject-datails</a>
-              </button>
-            </div>
+           
             <div className="card">
               <img className="card-img" src={web5} alt="" />
               <div className="card-title">
